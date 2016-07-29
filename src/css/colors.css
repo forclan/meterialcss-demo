@@ -1,0 +1,11 @@
+.white {
+  color: white; }
+
+.light-white {
+  color: rgba(255, 255, 255, 0.5); }
+
+.primary-red {
+  color: #ee6e73; }
+
+.light-black {
+  color: rgba(0, 0, 0, 0.6); }

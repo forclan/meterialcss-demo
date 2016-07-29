@@ -1,9 +1,20 @@
+.white {
+  color: white; }
+
 .light-white {
   color: rgba(255, 255, 255, 0.5); }
 
-footer {
+.primary-red {
+  color: #ee6e73; }
+
+.light-black {
+  color: rgba(0, 0, 0, 0.6); }
+
+#footer {
   background-color: #ee6e73;
   color: white; }
-  footer .footer-banner {
+  #footer .footer-banner {
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    background-color: rgba(243, 152, 155, 0.51);
+    padding: 10px 20px; }

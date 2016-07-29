@@ -1,12 +1,12 @@
-.light-white {
-  color: rgba(255, 255, 255, 0.5);
-}
-footer {
-  background-color: #ee6e73;
+@import "./colors.scss";
+#footer {
+  background-color: $primary-red;
   color: white;
   .footer-banner {
     display: flex;
     justify-content: space-between;
+    background-color: $second-red;
+    padding: 10px 20px;
     .copyright {
 
     }

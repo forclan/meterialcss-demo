@@ -57,6 +57,18 @@
 .input-field:focus .nav-search-bar {
   width: 100%; }
 
+.white {
+  color: white; }
+
+.light-white {
+  color: rgba(255, 255, 255, 0.5); }
+
+.primary-red {
+  color: #ee6e73; }
+
+.light-black {
+  color: rgba(0, 0, 0, 0.6); }
+
 .wrapper {
   margin: 0 70px; }
 
@@ -79,8 +91,8 @@
     background-color: #ee6e73;
     color: #fff; }
     .content .banner .banner-name {
-      padding: 40px 0;
-      font-size: 70px; }
+      padding: 30px 0;
+      font-size: 60px; }
     .content .banner .banner-info {
       font-size: 30px;
       text-align: center;

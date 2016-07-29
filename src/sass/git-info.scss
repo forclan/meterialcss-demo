@@ -4,8 +4,10 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-
   background-color: rgb(92, 87, 87);
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
   #github-link {
     padding: 10px;
     background-color: rgba(92, 87, 87, 0.8);

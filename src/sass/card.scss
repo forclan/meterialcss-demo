@@ -1,21 +1,17 @@
 .card-collection {
   display: flex;
-  // min-width: 400px;
   @media (max-width: 768px) {
     flex-direction: column;
     flex-wrap: wrap;
   }
   .card {
     flex: 1;
-    // min-width: 300px;
-    // width: 300px;
     .card-name {
       font-size: 20px;
     }
     .card-info {
       font-size: 14px;
       padding: 0 20px;
-      // color: rgba( 0, 0, 0, 0.6);
     }
   }
 }

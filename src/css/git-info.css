@@ -5,6 +5,9 @@
   align-items: center;
   justify-content: space-around;
   background-color: #5c5757; }
+  @media (max-width: 768px) {
+    .git-info {
+      flex-direction: column; } }
   .git-info #github-link {
     padding: 10px;
     background-color: rgba(92, 87, 87, 0.8);
