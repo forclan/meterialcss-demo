@@ -1,0 +1,11 @@
+.git-info {
+  font-size: 12px;
+  padding: 20px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #5c5757; }
+  .git-info #github-link {
+    padding: 10px;
+    background-color: rgba(92, 87, 87, 0.8);
+    border-radius: 3px; }

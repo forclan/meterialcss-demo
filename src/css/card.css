@@ -1,0 +1,13 @@
+.card-collection {
+  display: flex; }
+  @media (max-width: 768px) {
+    .card-collection {
+      flex-direction: column;
+      flex-wrap: wrap; } }
+  .card-collection .card {
+    flex: 1; }
+    .card-collection .card .card-name {
+      font-size: 20px; }
+    .card-collection .card .card-info {
+      font-size: 14px;
+      padding: 0 20px; }

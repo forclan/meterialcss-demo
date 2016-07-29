@@ -1,0 +1,17 @@
+.light-white {
+  color: rgba(255, 255, 255, 0.5);
+}
+footer {
+  background-color: #ee6e73;
+  color: white;
+  .footer-banner {
+    display: flex;
+    justify-content: space-between;
+    .copyright {
+
+    }
+    .license-name {
+
+    }
+  }
+}
