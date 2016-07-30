@@ -1,0 +1,20 @@
+
+@mixin material-button($primary-color, $second-color) {
+  font-size: 20px;
+  padding: 20px 40px;
+  background-color: $primary-color;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  color: white;
+  transition: all 0.3s;
+  border-radius: 8px;
+  &:hover {
+    background-color: $second-color;
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.16), 0 2px 20px 0 rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+  }
+}
+
+.button-teal {
+  @include material-button(#4db6ac, #80cbc4);
+  margin: 30px 0;
+}
